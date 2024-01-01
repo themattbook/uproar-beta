@@ -1,0 +1,85 @@
+.post-container {
+	border: $base-border-thickness solid $accent-color;
+	display: flex;
+	flex-direction: column;
+	margin: 0 3px;
+	margin-bottom: 10px;
+	font-weight: 300;
+	background-color: $bg-color;
+	.post-container-header {
+		padding: 10px 15px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		border-bottom: $base-border-thickness solid $accent-color;
+		.post-container-header-img-container {
+			position: relative;
+			img {
+				max-width: 35px;
+				height: 35px;
+				border-radius: 9999px;
+				background-color: $accent-color;
+			}
+			.is-online {
+				background-color: $green;
+				width: 11px;
+				height: 11px;
+				border-radius: 9999px;
+				position: absolute;
+				right: -1px;
+				top: -1px;
+			}
+		}
+		p {
+			margin-left: 15px;
+			font-size: 13px;
+			font-weight: 700;
+		}
+		.not-tagged {
+			display: none;
+		}
+		.tagged {
+			margin-left: 5px;
+			font-weight: 500;
+		}
+	}
+	.post-container-content {
+		display: flex;
+		flex-direction: column;
+		overflow-wrap: break-word;
+		p {
+			padding: 15px;
+		}
+	}
+	.post-container-interaction {
+		display: flex;
+		align-items: center;
+		padding: 15px;
+		font-size: 13px;
+		.item {
+			display: flex;
+			align-items: center;
+			margin-right: 15px;
+			svg {
+				margin-right: 5px;
+			}
+		}
+		.date {
+			display: flex;
+			align-items: center;
+			margin-left: auto;
+		}
+		.heart {
+			color: $news;
+		}
+	}
+	.post-container-comments {
+		background-color: $comments;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		padding: 15px;
+		font-size: 13px;
+	}
+}

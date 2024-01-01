@@ -1,0 +1,26 @@
+.sidebar-left {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	h4 {
+		color: $black;
+	}
+	.sidebar-left-item {
+		border-bottom: 1px solid $light;
+		padding: 20px 2px;
+		display: flex;
+		align-items: center;
+		svg {
+			margin-right: 15px;
+		}
+	}
+	.header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		height: 80px;
+		h4 {
+			color: $news;
+		}
+	}
+}

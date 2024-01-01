@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;&display=swap"); // Reset styles
+
+// Colors
+$black: #000009;
+$white: #ffffff;
+$dark: #3d3d3d;
+$light: #e6e6e6;
+$comments: #f3f3f3;
+$cream: #f7f7f7;
+$blue: #17a1b4;
+$orangered: #ef291c;
+$green: #1bc11b;
+$news: #be123c;
+$uproar: #3730a3;
+
+$bg-color: $white;
+$text-color: $black;
+$accent-color: $light;
+$warning: $orangered;
+$success: $blue;
+
+// Font Family
+$base-font-family: "Roboto", sans-serif;
+$heading-font-family: "Roboto", sans-serif;
+
+// Spacing
+$base-padding: 1rem;
+$base-margin: 0.75rem;
+
+// Borders
+$base-border-thickness: 0.5px;
+$base-border-radius: 20px;
+
+// Box Shadow
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+// Font Sizes
+$base-font-size: 1rem;
+$font-size-xs: $base-font-size * 0.5;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-2xl: $base-font-size * 3;
+$font-size-3xl: $base-font-size * 4;
+$font-size-4xl: $base-font-size * 5;
+$font-size-5xl: $base-font-size * 6;
+$font-size-6xl: $base-font-size * 7;
+$font-size-7xl: $base-font-size * 8;

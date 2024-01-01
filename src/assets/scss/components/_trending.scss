@@ -1,0 +1,18 @@
+.trending-item {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	.icon {
+		padding-right: 10px;
+	}
+	.content {
+		word-wrap: break-word;
+		.headline {
+			font-weight: 500;
+		}
+		.supplementary-text {
+			font-weight: 300;
+			font-size: 12px;
+		}
+	}
+}

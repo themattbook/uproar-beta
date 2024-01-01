@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: $base-font-family;
+}
+
+body {
+	font-family: $base-font-family;
+	font-weight: 400;
+	font-size: $base-font-size;
+}
+
+span {
+	font-size: inherit;
+}
+
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid #efefef;
+}
+
+img {
+	max-width: 100%;
+}
+
+.posts {
+	max-height: 100vh;
+	overflow-y: auto;
+}
+
+.hidden {
+	display: none;
+}
+
+@include max-breakpoint(650px) {
+	.hidden-mobile {
+		display: none;
+	}
+}
+
+// @include max-breakpoint(650px) {
+// 	* {
+// 		font-size: $base-font-size * 0.9;
+// 	}
+// }
+// @include max-breakpoint(576px) {
+// 	* {
+// 		font-size: $base-font-size * 0.8;
+// 	}
+// }

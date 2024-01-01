@@ -1,0 +1,50 @@
+[
+	{
+		"name": "Jill Curdles",
+		"tagged": "",
+		"profileImg": "https://images.unsplash.com/photo-1628157588553-5eeea00af15c",
+		"post": "I'm going to make your typical Hello, World! app in Angular just to torture myself. And why not? React works perfectly well and avoids the need for unnecessary decorators and blah blah. I guess I just like to make life difficult.",
+		"postImg": "",
+		"postHearts": 1,
+		"postComments": 0,
+		"isOnline": true
+	},
+	{
+		"name": "Simp Plimpton",
+		"tagged": "",
+		"profileImg": "https://images.unsplash.com/photo-1527980965255-d3b416303d12",
+		"post": "I JUST FOUND JAMES BOND! 😂",
+		"postImg": "https://images.unsplash.com/photo-1696967448678-6006dc120d14",
+		"postHearts": 12,
+		"postComments": 2
+	},
+	{
+		"name": "Jeb Dirkins",
+		"tagged": "",
+		"profileImg": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde",
+		"post": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus nesciunt, necessitatibus accusantium dicta explicabo suscipit amet, molestias id minima cumque repellat est aliquam debitis nobis labore?",
+		"postImg": "",
+		"postHearts": 12,
+		"postComments": 2
+	},
+	{
+		"name": "Jill Curdles",
+		"tagged": "Vika Strawberrika",
+		"profileImg": "https://images.unsplash.com/photo-1628157588553-5eeea00af15c",
+		"post": "He stole my glasses so I stole his car and left him at the park.",
+		"postImg": "https://images.unsplash.com/photo-1620471499743-fedf03f86ef7",
+		"postHearts": 31,
+		"postComments": 12,
+		"isOnline": true
+	},
+	{
+		"name": "Jill Curdles",
+		"tagged": "",
+		"profileImg": "https://images.unsplash.com/photo-1628157588553-5eeea00af15c",
+		"post": "The Beach Band reunites! ❤️❤️❤️❤️❤️❤️",
+		"postImg": "https://images.unsplash.com/photo-1619537901863-9807597cb0b2",
+		"postHearts": 206,
+		"postComments": 122,
+		"isOnline": true
+	}
+]
