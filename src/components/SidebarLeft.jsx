@@ -11,7 +11,7 @@ function SidebarLeft() {
 	return (
 		<div className="sidebar-left">
 			<div className="header">
-				<h4>Uproar</h4>
+				<h4>Demo</h4>
 			</div>
 			<div className="sidebar-left-item">
 				<AiOutlineHome />

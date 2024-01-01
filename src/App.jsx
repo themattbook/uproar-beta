@@ -2,6 +2,7 @@ import postData from "./data/_post.json";
 import Post from "./components/Post";
 import SidebarLeft from "./components/SidebarLeft";
 import SidebarRight from "./components/SidebarRight";
+import CreatePost from "./components/CreatePost";
 function App() {
 	return (
 		<div className="container mx-auto height-screen">
@@ -12,6 +13,8 @@ function App() {
 					</div>
 				</div>
 				<div className="col-12-xs col-7-lg posts">
+					<CreatePost />
+
 					{postData.map((post, index) => (
 						<Post
 							key={index}

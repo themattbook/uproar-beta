@@ -1,0 +1,67 @@
+// Define primary colors
+$primary-color: $uproar;
+$icon-color: #657786;
+
+// Twitter Post Form Styles
+.create-post-form {
+	border: $base-border-thickness solid $accent-color;
+	display: flex;
+	align-items: center;
+	margin: 0 3px;
+	margin-bottom: 10px;
+	font-weight: 300;
+	background-color: $bg-color;
+	padding: 10px 10px;
+}
+
+.text-area-container {
+	flex-grow: 1; // Allow the textarea to expand to fill available space
+}
+
+textarea {
+	padding: 6px;
+	font-size: 18px;
+	outline: none;
+	height: auto;
+	border: none;
+	text-wrap: break-word;
+	resize: none;
+	font-weight: 300;
+	width: calc(100% - 60px);
+
+	&:focus {
+		border-color: $primary-color;
+	}
+}
+
+input::placeholder {
+	color: $accent-color;
+}
+
+.icon-container {
+	display: flex;
+	justify-content: flex-start;
+	padding: 6px;
+
+	.icon {
+		font-size: 20px;
+		margin-right: 8px;
+		color: $icon-color;
+		cursor: pointer;
+		transition: color 0.3s ease;
+
+		&:hover {
+			color: $primary-color;
+		}
+	}
+}
+
+.create-post-avatar-container {
+	margin-right: 10px;
+
+	img {
+		width: 40px;
+		height: 40px;
+		border-radius: 9999px;
+	}
+}
